@@ -1,0 +1,55 @@
+.app__about {
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    align-items: left;
+
+    @media screen and (max-width: 1200px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 40px;
+        padding: 1.25rem;
+    }
+
+    .imgs {
+        width: 450;
+        height: 400;
+    }
+
+    @media screen and (min-width: 2000px) {
+        width: 470px;
+        padding: 1.25rem;
+        border-radius: 0.75rem;
+    }
+    
+    @media screen and (max-width: 300px) {
+        width: 100%;
+        margin: 1rem;
+    }
+}
+
+
+
+  
+  .image {
+    margin-right: 20px;
+  }
+
+.app__profiles {
+    margin-right: 20px;
+}
+
+img {
+    width: 10px;
+
+    @media screen and (max-width: 1200px) {
+        
+    }
+}
